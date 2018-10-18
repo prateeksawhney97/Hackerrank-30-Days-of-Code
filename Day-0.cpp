@@ -4,17 +4,16 @@
 #include <iostream>
 #include <algorithm>
 using namespace std;
+
 int main() {
-    // Declare a variable named 'input_string' to hold our input.
-    string input_string; 
-    
-    // Read a full line of input from stdin (cin) and save it to our variable, input_string.
-    getline(cin, input_string); 
-    
-    // Print a string literal saying "Hello, World." to stdout using cout.
-    cout << "Hello, World." << endl;
+   string inputString; // declare a variable to hold our input
+   getline(cin, inputString); // get a line of input from cin and save it to our variable
+  
+   // Your first line of output goes here
+   cout << "Hello, World." << endl;
 
-    // TODO: Write a line of code here that prints the contents of input_string to stdout.
-
-    return 0;
+   // Write the second line of output
+    
+   cout << inputString << endl;
+   return 0;
 }
