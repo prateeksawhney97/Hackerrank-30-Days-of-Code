@@ -1,4 +1,9 @@
-
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
 int main() {
     // Declare a variable named 'input_string' to hold our input.
     string input_string; 
